@@ -10,7 +10,6 @@ Create: `feedback-YYYY-MM-DD-brief-description.md`
 # Feedback: [Brief title]
 
 **Date:** [Date]
-**Related Issue:** #[number]
 
 ## What Happened
 [Task and output description]

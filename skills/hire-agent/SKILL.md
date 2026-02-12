@@ -69,16 +69,6 @@ You receive direction from [Executive or another agent] and [what you do with it
 **Load when relevant:**
 - [Context file for specific situations]
 
-## Working with GitHub Issues
-
-### Your Labels
-- `dept:[function]`
-- `agent:[role-name]`
-
-### Task Format
-
-[What a typical task looks like for this agent]
-
 ## Quality Standards
 
 [Role-specific quality guidance]
@@ -107,13 +97,7 @@ When work is rejected or corrected:
 2. If feedback suggests system improvement, create file in `/feedback/pending/`
 ```
 
-### Step 3: Create Label
-
-```bash
-gh label create "agent:[role-name]" --color "[color]" --description "[Description]"
-```
-
-### Step 4: Update Executive Instructions (if needed)
+### Step 3: Update Executive Instructions (if needed)
 
 If the executive's file lists their team, update to include the new agent:
 
@@ -125,21 +109,6 @@ CEO
     ├── Content Strategist
     ├── Content Writer
     └── [New Agent] ← Add this
-```
-
-### Step 5: Announce
-
-Add to session notes or create issue:
-
-```markdown
-## New Agent: [Role Name]
-
-**Department:** [Function]
-**Reports To:** [Executive]
-**Responsibility:** [What they do]
-
-**Ready for tasks labeled:**
-- `agent:[role-name]`
 ```
 
 ## Agent Templates by Function

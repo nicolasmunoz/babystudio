@@ -124,33 +124,7 @@ gh pr create --title "[Title]" --body "[PR body]"
 ### 5. After PR Merged
 
 1. Archive processed feedback
-2. Comment on related issues if applicable
-3. Update any cross-references if needed
-
-## Working with GitHub Issues
-
-### Your Labels
-- `agent:system-improver`
-
-### Improvement Tasks
-
-Create issues for significant improvements:
-
-```markdown
-## Task: Improve [Component]
-
-### Feedback Source
-[Links to feedback files]
-
-### Problem
-[What's not working]
-
-### Proposed Solution
-[What to change]
-
-### Files to Modify
-- [File list]
-```
+2. Update any cross-references if needed
 
 ## Decision Authority
 
@@ -191,7 +165,6 @@ Expected format in `/feedback/pending/`:
 # Feedback: [Brief title]
 
 **Date:** [Date]
-**Related Issue:** #[number]
 
 ## What Happened
 [Task and output description]

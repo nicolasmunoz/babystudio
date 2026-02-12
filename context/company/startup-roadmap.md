@@ -22,20 +22,19 @@ Given limited resources in startup phase, we prioritize based on:
 
 ---
 
-## Phase 1: Foundation (Current)
+## Phase 1: Foundation — COMPLETE
 
 **Objective:** Establish the strategic foundation that guides all execution
 
-### Completed ✓
-- [x] Mission, Vision, Values defined
-- [x] Business model documented
-- [x] Target market and personas defined
-- [x] Competitive landscape mapped
+### Completed
+- [x] Mission, Vision, Values defined (`context/company/mission-vision.md`)
+- [x] Business model documented (`context/company/business-model.md`)
+- [x] Target market and personas defined (`context/company/target-market.md`)
+- [x] Competitive landscape mapped (`context/company/competitive-landscape.md`)
 - [x] Initial website positioning
-
-### In Progress
-- [ ] Startup roadmap (this document)
-- [ ] GitHub issue structure for tracking
+- [x] Startup roadmap (this document)
+- [x] Agent infrastructure (CMO, Content Strategist, Content Writer, Email Marketing Specialist, System Improver)
+- [x] Skill library (hire-executive, hire-agent, linkedin-post, email-sequence, blog-post, content-brief, pitch-deck, case-study)
 
 ---
 
@@ -44,23 +43,21 @@ Given limited resources in startup phase, we prioritize based on:
 **Objective:** Develop distinctive brand identity and messaging that resonates with target customers
 
 ### Why This Matters
-- Current website positioning is functional but not differentiated
 - Brand and messaging will inform all marketing, sales, and content work
 - Getting this right early prevents expensive repositioning later
+- Cohesive brand voice across channels builds trust and recognition
 
 ### Key Deliverables
 
-#### 2.1 Brand Strategy
-- Brand positioning statement
-- Brand personality and voice
-- Visual identity principles (in partnership with design)
-- Naming and terminology decisions (e.g., what do we call our AI babies?)
+#### 2.1 Brand Foundation
+- Brand guidelines (`context/marketing/brand-guidelines.md`) — Brand essence, personality, voice, messaging architecture, terminology
+- Messaging framework (`context/marketing/messaging-framework.md`) — Positioning statements, value props, key messages by persona, proof points, elevator pitches
+- Tone of voice (`context/marketing/tone-of-voice.md`) — Voice dimensions, tone modifiers by channel/audience, word lists, jargon policy
 
-#### 2.2 Messaging Framework
-- Core value proposition (by segment)
-- Key messages hierarchy
-- Proof points and evidence
-- Objection handling language
+#### 2.2 Persona & Positioning
+- Audience segments (`context/marketing/audience-segments.md`) — Expanded personas, buying journeys, content preferences
+- Content pillars (`context/marketing/content-pillars.md`) — 5 pillars with sub-topics, funnel and channel mapping
+- Competitor messaging (`context/marketing/competitor-messaging.md`) — Messaging audit, gaps, counter-claims
 
 #### 2.3 Website Messaging Update
 - Homepage refresh with refined positioning
@@ -77,7 +74,8 @@ Given limited resources in startup phase, we prioritize based on:
 - Input on visual identity direction (human)
 
 ### Assigned To
-- CMO (to be fully activated)
+- CMO (brand guidelines, messaging framework, tone of voice, competitor messaging)
+- Content Strategist (audience segments, content pillars)
 
 ---
 
@@ -93,28 +91,25 @@ Given limited resources in startup phase, we prioritize based on:
 ### Key Deliverables
 
 #### 3.1 Sales Enablement
-- Pitch deck (enterprise and emerging brand versions)
-- One-pager / leave-behind
-- Demo workflow and sample assets
-- Pricing framework and rate card
-- Proposal/SOW templates
+- Pitch deck content (`context/sales/pitch-deck-content.md`) — Enterprise and DTC versions
+- One-pager (`context/sales/one-pager.md`) — Enterprise and emerging brand versions
+- Objection handling guide (`context/sales/objection-handling-guide.md`) — Top objections by persona
+- Case study template (`context/sales/case-study-template.md`) — Standard format + hypothetical studies
+- Proposal template (`context/sales/proposal-template.md`) — SOW structure
 
-#### 3.2 Case Study / Proof Point Development
-- Sample projects showing capability
-- Before/after comparisons (traditional vs. AI)
-- Quality benchmark documentation
-- If possible: early customer testimonial
+#### 3.2 Pricing & Commercial Foundation
+- Pricing framework (`context/sales/pricing-framework.md`) — Tiers, packages, ROI calculator, pilot program
+- Legal & compliance foundation (terms, AI disclosure, usage rights — human-led)
 
-#### 3.3 Legal & Compliance Foundation
-- Terms of service
-- AI disclosure guidelines for clients
-- Usage rights documentation
-- Privacy and data handling policies
+#### 3.3 Content Strategy
+- Channel strategy (`context/marketing/channel-strategy.md`) — Channel prioritization, role definitions, resource allocation
+- Editorial calendar (`context/marketing/editorial-calendar.md`) — 90-day framework, cadence, content mix
+- SEO keyword strategy (`context/marketing/seo-keyword-strategy.md`) — Keyword clusters, intent mapping, priorities
 
 ### Success Metrics
 - Complete sales toolkit ready for customer conversations
 - Pricing validated through early conversations
-- Legal framework approved for customer contracts
+- Content strategy ready for execution
 
 ### Dependencies
 - Brand and messaging (Phase 2)
@@ -122,8 +117,9 @@ Given limited resources in startup phase, we prioritize based on:
 - Legal review (human)
 
 ### Assigned To
-- CMO (sales enablement, case studies)
-- CEO (pricing, legal coordination)
+- CMO (pitch deck, one-pager, objection handling, case studies, channel strategy)
+- Content Strategist (editorial calendar, SEO keyword strategy)
+- CEO (pricing framework, proposal template, legal coordination)
 
 ---
 
@@ -133,34 +129,33 @@ Given limited resources in startup phase, we prioritize based on:
 
 ### Why This Matters
 - Need pipeline of potential customers to validate product-market fit
-- Marketing compounds over time—starting early creates future leverage
+- Marketing compounds over time — starting early creates future leverage
 - Content establishes thought leadership and category ownership
 
 ### Key Deliverables
 
-#### 4.1 Content Strategy
-- Content pillars and themes
-- Editorial calendar (first 90 days)
-- Content formats by channel
-- SEO/keyword strategy
+#### 4.1 Channel Playbooks
+- LinkedIn playbook (`context/marketing/playbooks/linkedin-playbook.md`) — Post formats, cadence, hooks, templates
+- Email playbook (`context/marketing/playbooks/email-playbook.md`) — Email types, subject lines, personalization
+- Blog playbook (`context/marketing/playbooks/blog-playbook.md`) — Post types, SEO integration, promotion
+- Industry publications playbook (`context/marketing/playbooks/industry-publications-playbook.md`) — Target pubs, pitch guidelines
 
-#### 4.2 Thought Leadership Content
+#### 4.2 Lead Generation Infrastructure
+- Outbound target list (`context/sales/outbound-target-list.md`) — Enterprise and DTC targets with scoring
+- Lead magnet strategy (`context/sales/lead-magnet-strategy.md`) — Concepts, distribution, conversion funnels
+- Email nurture sequences (`context/sales/email-nurture-sequences.md`) — Enterprise, DTC, post-demo, re-engagement
+- Lead scoring criteria (`context/sales/lead-scoring-criteria.md`) — Scoring dimensions, thresholds, handoff rules
+
+#### 4.3 Thought Leadership Content
 - Founding story / "Why We Built This"
 - Industry perspective pieces (the problem with baby shoots)
 - Educational content (AI in baby product marketing)
 - LinkedIn presence for founder(s)
 
-#### 4.3 Lead Generation Infrastructure
-- Lead capture mechanism (website form, calendar booking)
-- CRM setup and lead tracking
-- Email nurture sequences
-- Outbound target list (enterprise accounts)
-
-#### 4.4 Channel Strategy
-- LinkedIn (primary B2B channel)
-- Industry publications and trade media
-- Event/conference strategy
-- Partnership/referral channels
+#### 4.4 Content Production
+- LinkedIn post series (using `linkedin-post` skill)
+- Blog post series (using `blog-post` skill)
+- Email sequences (using `email-sequence` skill)
 
 ### Success Metrics
 - Qualified leads entering pipeline
@@ -170,13 +165,15 @@ Given limited resources in startup phase, we prioritize based on:
 
 ### Dependencies
 - Brand and messaging (Phase 2)
-- Website updates (Phase 2)
 - Sales enablement (Phase 3)
+- Channel strategy and editorial calendar (Phase 3)
 
 ### Assigned To
-- CMO (strategy and content)
-- Content Strategist (execution)
-- Content Writer (production)
+- CMO (lead generation strategy, industry publications playbook)
+- Content Strategist (channel playbooks, content briefs, editorial calendar execution)
+- Content Writer (LinkedIn posts, blog posts, thought leadership)
+- Email Marketing Specialist (email sequences, nurture campaigns, outbound messaging)
+- CEO (outbound target list, sales conversations)
 
 ---
 
@@ -195,7 +192,6 @@ Given limited resources in startup phase, we prioritize based on:
 - Qualification criteria
 - Sales conversation playbook
 - Demo script and flow
-- Objection handling guide
 - Close process and handoff
 
 #### 5.2 Customer Onboarding
@@ -208,7 +204,7 @@ Given limited resources in startup phase, we prioritize based on:
 - Customer interview guide
 - Satisfaction tracking
 - Feature/improvement requests capture
-- Testimonial/case study process
+- Testimonial/case study process (using `case-study` skill)
 
 ### Success Metrics
 - First paying customer(s)
@@ -274,19 +270,20 @@ Given limited resources in startup phase, we prioritize based on:
 
 ## Initiative Summary
 
-| # | Initiative | Phase | Owner | Priority | Dependencies |
-|---|------------|-------|-------|----------|--------------|
-| 1 | Brand & Positioning Strategy | 2 | CMO | P0 | Foundation complete |
-| 2 | Messaging Framework | 2 | CMO | P0 | Brand strategy |
-| 3 | Website Messaging Update | 2 | CMO | P1 | Messaging framework |
-| 4 | Sales Enablement Package | 3 | CMO | P0 | Messaging framework |
-| 5 | Pricing & Legal Foundation | 3 | CEO | P0 | Business model |
-| 6 | Content Strategy | 4 | CMO | P1 | Brand & messaging |
-| 7 | Thought Leadership Content | 4 | CMO | P1 | Content strategy |
-| 8 | Lead Generation Infrastructure | 4 | CMO | P1 | Website updates |
-| 9 | Sales Process Development | 5 | CEO | P1 | Sales enablement |
-| 10 | Customer Onboarding Process | 5 | CEO | P2 | First customer |
-| 11 | Production Workflow | 6 | CEO | P2 | Customer volume |
+| # | Initiative | Phase | Owner | Priority | Dependencies | Key Artifacts |
+|---|------------|-------|-------|----------|--------------|---------------|
+| 1 | Brand Foundation | 2 | CMO | P0 | Foundation complete | brand-guidelines, messaging-framework, tone-of-voice |
+| 2 | Persona & Positioning | 2 | CMO + Content Strategist | P0 | Brand foundation | audience-segments, content-pillars, competitor-messaging |
+| 3 | Website Messaging Update | 2 | CMO | P1 | Messaging framework | — |
+| 4 | Sales Enablement | 3 | CMO | P0 | Messaging framework | pitch-deck, one-pager, objection-handling, case-studies, proposal |
+| 5 | Pricing & Commercial | 3 | CEO | P0 | Business model | pricing-framework |
+| 6 | Content Strategy | 3 | CMO + Content Strategist | P1 | Brand & messaging | channel-strategy, editorial-calendar, seo-keywords |
+| 7 | Channel Playbooks | 4 | Content Strategist | P1 | Content strategy | linkedin/email/blog/publications playbooks |
+| 8 | Lead Generation | 4 | CMO + CEO | P1 | Sales enablement | outbound-targets, lead-magnets, nurture-sequences, lead-scoring |
+| 9 | Content Production | 4 | Content Writer + Email Marketer | P1 | Channel playbooks | LinkedIn posts, blog posts, email sequences |
+| 10 | Sales Process | 5 | CEO | P1 | Sales enablement | — |
+| 11 | Customer Onboarding | 5 | CEO | P2 | First customer | — |
+| 12 | Production Workflow | 6 | CEO | P2 | Customer volume | — |
 
 ---
 
@@ -298,7 +295,10 @@ Phase 1: Foundation ────────────────────
               ▼
 Phase 2: Brand & Positioning ─────────────────────►
               │
-              ├──► Messaging Framework
+              ├──► Brand Foundation (brand-guidelines, messaging-framework, tone-of-voice)
+              │         │
+              │         ▼
+              ├──► Persona & Positioning (audience-segments, content-pillars, competitor-messaging)
               │         │
               │         ▼
               │    Website Update
@@ -306,15 +306,16 @@ Phase 2: Brand & Positioning ─────────────────
               ▼
 Phase 3: GTM Preparation ─────────────────────────►
               │
-              ├──► Sales Enablement
-              ├──► Pricing & Legal
+              ├──► Sales Enablement (pitch-deck, one-pager, objection-handling, case-studies)
+              ├──► Pricing & Commercial (pricing-framework, proposal-template)
+              ├──► Content Strategy (channel-strategy, editorial-calendar, seo-keywords)
               │
               ▼
 Phase 4: Demand Generation ───────────────────────►
               │
-              ├──► Content Strategy
-              ├──► Thought Leadership
-              ├──► Lead Gen Infrastructure
+              ├──► Channel Playbooks (linkedin, email, blog, publications)
+              ├──► Lead Generation (outbound-targets, lead-magnets, nurture-sequences, lead-scoring)
+              ├──► Content Production (posts, articles, emails)
               │
               ▼
 Phase 5: Customer Acquisition ────────────────────►
@@ -352,8 +353,7 @@ Before proceeding, clarification needed on:
 
 1. Review this roadmap and provide input on open questions
 2. Prioritize which initiatives to tackle first
-3. Create GitHub issues for approved initiatives
-4. Activate CMO with first initiative assignment
+3. Activate CMO with first initiative assignment
 
 ---
 
