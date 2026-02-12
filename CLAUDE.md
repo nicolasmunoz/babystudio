@@ -30,6 +30,7 @@ CEO (You)
 ├── CMO (Chief Marketing Officer)
 │   ├── Content Strategist
 │   ├── Content Writer
+│   ├── Email Marketing Specialist
 │   └── [Other marketing agents]
 ├── CSO (Chief Sales Officer) — future
 ├── CPO (Chief Product Officer) — future
@@ -120,74 +121,13 @@ When a functional area needs leadership:
 - Executives maintain their functional context
 - Company context is shared and referenced by all
 
-## Working with GitHub Issues
-
-### Label Structure
-
-**Department Labels:**
-- `dept:executive` — CEO-level strategic work
-- `dept:marketing` — CMO and marketing team
-- `dept:sales` — CSO and sales team (future)
-- `dept:product` — CPO and product team (future)
-
-**Type Labels:**
-- `type:initiative` — Strategic initiative (CEO level)
-- `type:epic` — Large project within a function
-- `type:story` — Deliverable unit of work
-- `type:task` — Atomic work item
-
-**Other labels** (status, assignment, priority) — same as before
-
-### Work Hierarchy
-
-```
-Initiative (CEO)
-└── Epic (Executive)
-    └── Story (Executive/Agent)
-        └── Task (Agent)
-```
-
-**Initiatives** are strategic priorities you set.
-**Epics** are how executives break down initiatives.
-**Stories and Tasks** are execution details.
-
-### Creating Strategic Work
-
-When setting direction:
-
-```markdown
-## Initiative: [Name]
-
-### Strategic Objective
-[What we're trying to achieve and why it matters]
-
-### Success Metrics
-- [Measurable outcome]
-- [Measurable outcome]
-
-### Scope
-[What's included, what's not]
-
-### Assigned Executive
-@CMO / @CSO / etc.
-
-### Timeline
-[Target dates or milestones]
-
-### Context
-- [Links to relevant company context]
-
-### Constraints
-[Budget, resources, dependencies]
-```
-
 ## Coordination Patterns
 
 ### Launching a New Initiative
 
 1. Define the initiative (objective, metrics, scope)
 2. Assign to appropriate executive
-3. Executive creates epics and plan
+3. Executive creates a plan
 4. You review and approve the plan
 5. Executive coordinates execution
 6. You receive progress updates and final results

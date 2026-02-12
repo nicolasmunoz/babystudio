@@ -20,6 +20,3 @@ Use descriptive names: `[type]-[description]-[date-if-relevant].md`
 
 Example: `strategy-q1-marketing-plan.md`
 
-## Linking
-
-Always link outputs in the related GitHub Issue comment.

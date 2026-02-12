@@ -110,20 +110,6 @@ You own and maintain:
 └── [doc-3].md
 \`\`\`
 
-## Working with GitHub Issues
-
-### Your Labels
-- `dept:[function]`
-- `exec:[abbreviation]`
-
-### Work Hierarchy for [Function]
-\`\`\`
-Initiative (CEO sets)
-└── Epic (You create)
-    └── Story (You or agents)
-        └── Task (Agents)
-\`\`\`
-
 ## Decision Authority
 
 ### You Decide:
@@ -172,35 +158,9 @@ Create initial context files based on what the executive needs:
 - Key frameworks or guidelines
 - Reference materials
 
-### Step 4: Create Labels
-
-Add labels for the new department:
-
-```bash
-gh label create "dept:[function]" --color "[color]" --description "[Function] department"
-gh label create "exec:[abbrev]" --color "[color]" --description "[Title] owned work"
-```
-
-### Step 5: Update CEO Instructions (if needed)
+### Step 4: Update CEO Instructions (if needed)
 
 If CLAUDE.md references specific executives, update to include the new one.
-
-### Step 6: Announce the Hire
-
-Create an issue or add to session notes:
-
-```markdown
-## New Executive: [Title]
-
-**Scope:** [What they're responsible for]
-**Reports To:** CEO
-**Team:** [Agents that report to them]
-**Context:** `/context/[function]/`
-
-**Initial Priorities:**
-1. [Priority 1]
-2. [Priority 2]
-```
 
 ## Examples
 
@@ -219,8 +179,6 @@ Create an issue or add to session notes:
 - `sales-process.md`
 - `ideal-customer-profile.md`
 
-**Labels:** `dept:sales`, `exec:cso`
-
 ### Hiring a CPO (Chief Product Officer)
 
 **Define:**
@@ -235,8 +193,6 @@ Create an issue or add to session notes:
 - `product-strategy.md`
 - `roadmap.md`
 - `user-research.md`
-
-**Labels:** `dept:product`, `exec:cpo`
 
 ## Notes
 
